@@ -1,0 +1,300 @@
+
+
+/* ベース（スマホ） */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section {
+  padding: 100px 10px;
+  text-align: center;
+}
+
+.fv {
+  padding: 50px 20px;
+  background: #f3eefc;
+}
+
+.fv h1 {
+ margin-top: 70px;
+    margin-bottom: 16px;
+ font-size:31px;
+    font-weight: 700;
+  color: rgb(39, 38, 39);
+}
+
+.fv p {
+  font-size: 18px; 
+color: rgb(5, 5, 5);
+  margin-bottom: 24px;
+}
+
+.worries{
+background-color: #fcfcfc;
+  border-left: 4px solid #a756f3;
+  padding-left: 16px;
+}
+.worries h2 {
+color: rgb(0, 0, 0);
+padding: 10px 16px;
+font-size: 28px;
+
+}
+.worries li {
+  font-size: 18px;
+  margin-bottom: 16px;
+color: rgb(12, 12, 12);
+}
+
+.solution {
+  background-color: #fffbfb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  border-radius: 12px;
+
+}
+
+.solution h2 {
+  margin-top: 1px;  
+  font-size: 24px;
+ padding: 20px 16px;
+}
+
+.solution-items p {
+font-size: 23px;
+}
+
+.results {
+  background-color: #fffbfb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  border-radius: 12px;
+}
+.results .note {
+  font-size: 18px;
+  color: #e91e1e;
+  margin-bottom: 30px;
+}
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.before, .after {
+  width: 140px;
+  height: 190px;
+  background-color: #c2bcbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.price {
+ font-size: 19px;
+  background-color: #fffbfb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  padding:  60px 24px;
+}
+
+.price li {
+font-size: 18px;
+
+}
+
+
+.warning {
+  background-color: #fffbfb;
+  border-left: 4px solid #a855f7;
+  padding-left: 16px;
+}
+
+
+.warning li {
+font-size: 17px;
+ margin-bottom: 16px;
+
+}
+
+.warning h3 {
+  margin-top: 20px;  
+  font-size: 20px;
+}
+
+
+.cta-last {
+  background-color: #fffbfb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.cta-last p {
+  font-size: 18px;
+}
+
+.cta-last h3 {
+  margin-bottom: 50px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+
+section {
+  padding: 30px 30px; /* 上下たっぷり、左右は抑える */
+}
+p {
+  margin-top: 10px;
+
+}
+
+
+
+
+
+.item p {
+padding: 10px 20px;
+font-size: 18px;
+  list-style-position: inside;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.results{
+padding: 10px 20px;
+}
+
+.btn {
+   display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 19px;
+  padding: 20px 20px;
+background: linear-gradient(135deg, #f3f1f1, #ffffff);
+ border: 3px solid rgba(152, 7, 236, 0.356);
+color: #7c3aed;
+font-weight: 600;
+text-decoration: none;
+border-radius: 100px;
+ box-shadow: 0 4px 18px rgba(124,58,237,0.25);
+} 
+ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {font-weight: 600;}
+
+p, li { font-weight: 500; color: #272626; }
+
+
+
+
+
+/* PCだけ変更 */
+@media (min-width: 769px) {
+  .fv h1 {
+    font-size: 50px;
+    color: rgb(25, 25, 26);
+  }
+
+.fv p {
+  font-size: 23px;
+}
+  .btn {
+   display: inline-block;
+  margin: 30px;
+  font-size: 25px;
+  padding: 20px 20px;
+background: #fff;
+border: 3px solid #7706e0;
+color: #7e07ec;
+  text-decoration: none;
+box-shadow: 0 5px 10px rgba(231, 12, 12, 0.15);
+  border-radius: 200px;
+} 
+
+.worries h2 {
+  margin-top: 10px; 
+font-size: 33px;
+}
+
+.worries li {
+  font-size: 22px;
+}
+
+.solution h2 {
+  font-size: 33px;
+}
+
+.solution-items h3 {
+  font-size: 25px;
+}
+
+.solution-items p {  
+  font-size: 22px;
+}
+
+.results h2 {
+  font-size: 33px;
+}
+
+.results .note  {
+  font-size: 22px;
+} 
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.before, .after {
+  width: 200px;
+  height: 260px;
+  background-color: #c2bcbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+font-size: 20px;
+}
+
+.price h2 {
+  font-size: 33px;
+}
+
+.price li { 
+  font-size: 22px;
+}
+
+.price-note {
+font-size: 25px;
+}
+
+.warning h2 {
+  font-size: 33px;
+}
+
+.warning li {
+  font-size: 22px;
+}
+
+.warning h3 {
+  font-size: 25px;
+}
+
+.cta-last h2 {
+  font-size: 33px;
+}
+
+
+.cta-last p {
+  font-size: 24px;
+}
+
+
+  
+}
+
